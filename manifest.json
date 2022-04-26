@@ -1,0 +1,13 @@
+{
+    "name" : "Phishing Search",
+    "version" : "0.0.1",
+    "manifest_version": 3,
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "permissions" : ["activeTab","tabs"],
+    "host_permissions": [
+        "https://ipqualityscore.com/api/json/*"
+    ]
+
+}
